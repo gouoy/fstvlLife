@@ -1,0 +1,29 @@
+footer{
+  background-color: #ff1a42;
+  font-family: Pretendard-Regular;
+}
+
+footer section{
+  width:1300px;
+  margin:auto;
+  height:300px;
+  display:flex;
+  flex-direction: column;
+  row-gap: 13px;
+  text-align:center;
+  justify-content: center;
+  padding-bottom:10px;
+  color:#fff;
+}
+footer img{
+  width:100px; height:100px;
+}
+address{font-style:normal;}
+strong{
+  font-weight:500;
+}
+.social_icon i{
+  padding:4px;
+}
+ul li{padding-bottom:3px;}
+footer{margin-top:100px;}

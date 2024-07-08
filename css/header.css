@@ -1,0 +1,63 @@
+
+header{
+  font-family: Gmarket Sans B;
+  height:300px;
+}
+.flowText{
+  width:100%;
+  height:20px;
+}
+.logo img{
+  width:200px;
+  height:100px;
+  margin:auto;
+}
+.logo{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  background-color: #000;
+}
+/* navigationbar */
+#gnb .navi{
+  margin:auto;
+  width:1300px;
+  display:flex;
+  justify-content: center;
+  align-items: top;
+  height:inherit;
+}
+.navi>li{
+  position:relative;
+  padding:20px 100px 6px;
+  font-size:22px;
+  text-transform: uppercase;
+  text-align:center;
+  transition:0.4s;
+}
+
+.navi>li>ul{
+  position:absolute;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  top: calc(100% + 10px);
+  left:50%;
+  transform:translateX(-50%);
+  width:280px;
+  /* display:none;  */  
+  /* 이곳이..호버 */
+}
+.navi>li>ul li{
+  padding:3px 14px;
+  font-size:15px;
+  font-family: Gmarket Sans M;
+  color:#fff;
+  background-color: #000;
+  border-radius:30px;
+  position:relative;
+  transition:0.5s;
+}
+
+.navi>li:hover{color:#ff1a42}
+
